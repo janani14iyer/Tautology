@@ -7,6 +7,7 @@ $Equation = read_stdin();
 
 echo "The equation you entered is $Equation" . PHP_EOL;
 
+
 // function to read from the command line
 function read_stdin()
 {
@@ -16,5 +17,7 @@ function read_stdin()
         fclose ($fr);                   
         return $input;                  
 }
+
+
 
 ?>
